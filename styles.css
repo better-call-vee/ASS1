@@ -66,21 +66,24 @@ header a:hover {
 .content p {
     font-size: 1.2rem;
     margin: 0 0 20px;
-    color: #666;
+    color: #817f7f;
 }
 
-.content a {
+.content button {
     display: inline-block;
     text-decoration: none;
     color: #fff;
     background-color: #006a50;
     padding: 12px 20px;
+    border: none;
     border-radius: 8px;
     font-size: 1rem;
+    cursor: pointer;
+    font-family: inherit;
     transition: background-color 0.3s;
 }
 
-.content a:hover {
+.content button:hover {
     background-color: #00332e;
 }
 
